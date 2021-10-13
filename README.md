@@ -1,6 +1,8 @@
 # AutoRefreshRate
 
-Changes the refresh rate depending on whether the computer is plugged in or not.
+Changes the refresh rate depending on whether the computer is plugged in or not to save battery.
+
+My laptop supports 60Hz and 240Hz, these values must be changed according to your screen.
 
 # Scheduling
 
