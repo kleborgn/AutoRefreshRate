@@ -13,6 +13,9 @@ Create a new task, trigger it on this event:
   
 For the action, simply run AutoRefreshRate.exe.
 
+This task will run the program every time the power status changes (plug/unplug).
+The program automatically determines whether the power supply is connected or not and changes the refresh rate according to the power supply status (on battery: 60Hz/on power: 240Hz).
+
 # Documentation
 
 - [GetSystemPowerStatus function (winbase.h)](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-getsystempowerstatus)   
